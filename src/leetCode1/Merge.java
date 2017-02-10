@@ -1,7 +1,5 @@
 package leetCode1;
 
-import java.util.ArrayList;
-
 public class Merge {
 	public void merge(int[] nums1, int m, int[] nums2, int n) {
 		int size = n + m - 1;
