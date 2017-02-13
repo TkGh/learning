@@ -31,7 +31,6 @@ public class SortList {
 	}
 	
 	
-//蹇�熸帓搴忓緢鍙兘瓒呮椂
 	public ListNode sortList(ListNode head) {
 		if (head == null || head.next == null) {
 			return head;
