@@ -2,15 +2,15 @@ package leetCode1;
 
 public class Draft {
 	public static void main(String[] args) {
-		String a = "abab a";
-		String c = "bc";
-		String d = "a";
-		String b = d + c;
-		String e = a.replace(a.charAt(0), '1');
-
-		System.out.println(e);
-		if (true) {
-			System.out.println(1);
+		int[] a = new int[10];
+		for (int i = 0; i < 10; i++) {
+			a[i] = i;
 		}
+
+		int sum = 0;
+		for (int e : a) {
+			sum += e;
+		}
+		System.out.println(sum);
 	}
 }
