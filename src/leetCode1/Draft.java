@@ -6,11 +6,10 @@ public class Draft {
 		String c = "bc";
 		String d = "a";
 		String b = d + c;
-		String e;
-		e=d;
-		
-		System.out.println(a.charAt(1));
-		if(a.charAt(4)==' '){
+		String e = a.replace(a.charAt(0), '1');
+
+		System.out.println(e);
+		if (true) {
 			System.out.println(1);
 		}
 	}
