@@ -1,14 +1,13 @@
 package leetCode1;
 
-import java.util.*;
-
 public class Draft {
 	public static void main(String[] args) {
-		List<Integer> temp = new ArrayList<Integer>();
-		temp.add(1);
-		temp.add(2);
-		List<Integer> res = new ArrayList<Integer>();
-		res.add(0);
+		Integer head = new Integer(0);
+		test(head);
+		System.out.println(head);
+	}
 
+	private static void test(Integer head) {
+		head = 1;
 	}
 }
