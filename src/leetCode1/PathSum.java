@@ -20,11 +20,6 @@ public class PathSum {
 	}
 
 	private int helper(TreeNode root, int sum) {
-		if (sum - root.val == 0) {
-			return 1;
-
-		}
-
 		int left = 0;
 		int right = 0;
 		if (root.left != null) {
@@ -32,6 +27,11 @@ public class PathSum {
 		}
 		if (root.right != null) {
 			right = helper(root.right, sum - root.val);
+		}
+
+		if (sum - root.val == 0) {
+			return 1 + left + right;
+
 		}
 		return left + right;
 	}
