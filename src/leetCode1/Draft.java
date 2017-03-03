@@ -1,13 +1,12 @@
 package leetCode1;
 
+import java.util.*;
+
 public class Draft {
 	public static void main(String[] args) {
-		Integer head = new Integer(0);
-		test(head);
-		System.out.println(head);
+		List<TreeNode> res = new ArrayList<>();
+		res.add(null);
+		res.add(new TreeNode(1));
 	}
 
-	private static void test(Integer head) {
-		head = 1;
-	}
 }
