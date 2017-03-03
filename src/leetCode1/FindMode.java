@@ -1,6 +1,7 @@
 package leetCode1;
 
 import java.util.*;
+import java.util.Map.Entry;
 
 public class FindMode {
 	public int[] findMode(TreeNode root) {
@@ -12,8 +13,9 @@ public class FindMode {
 
 		int count = helper(root, map);
 		List<Integer> res = new ArrayList<Integer>();
-		Iterator iter = map.entrySet().iterator();
+		Iterator<Entry<Integer, Integer>> iter = map.entrySet().iterator();
 		while (iter.hasNext()) {
+			@SuppressWarnings("rawtypes")
 			Map.Entry entry = (Map.Entry) iter.next();
 			Integer key = (Integer) entry.getKey();
 			Integer value = (Integer) entry.getValue();

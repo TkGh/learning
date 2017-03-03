@@ -6,9 +6,9 @@ public class SortListInMerge {
 		ListNode a = new ListNode(2);
 		ListNode b = new ListNode(3);
 		ListNode c = new ListNode(4);
-		ListNode d = new ListNode(-3);
-		ListNode e = new ListNode(6);
-		ListNode f = new ListNode(4);
+		// ListNode d = new ListNode(-3);
+		// ListNode e = new ListNode(6);
+		// ListNode f = new ListNode(4);
 
 		l1.next = a;
 		a.next = b;

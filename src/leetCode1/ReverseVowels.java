@@ -1,7 +1,5 @@
 package leetCode1;
 
-import java.util.*;
-
 public class ReverseVowels {
 	public String reverseVowels(String s) {
 		if (s.length() == 0 || s.length() == 1) {

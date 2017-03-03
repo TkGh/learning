@@ -49,9 +49,9 @@ public class CombinationSum2 {
 	}
 
 	public static void main(String[] args) {
-		int[] candidates = { 2, 2, 2 };
-		CombinationSum2 res = new CombinationSum2();
-
-		List<List<Integer>> r = res.combinationSum2(candidates, 4);
+		// int[] candidates = { 2, 2, 2 };
+		// CombinationSum2 res = new CombinationSum2();
+		//
+		// List<List<Integer>> r = res.combinationSum2(candidates, 4);
 	}
 }

@@ -42,13 +42,11 @@ public class PathSum2 {
 	}
 
 	public static void main(String[] args) {
-		TreeNode root = new TreeNode(-2);
-		TreeNode a = new TreeNode(-3);
-
-		root.left = a;
-
-		PathSum2 res = new PathSum2();
-
-		List<List<Integer>> aaa = res.pathSum(root, -5);
+		// TreeNode root = new TreeNode(-2);
+		// TreeNode a = new TreeNode(-3);
+		//
+		// root.left = a;
+		//
+		// PathSum2 res = new PathSum2();
 	}
 }
