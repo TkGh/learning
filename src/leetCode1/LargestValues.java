@@ -28,4 +28,18 @@ public class LargestValues {
 
 		return res;
 	}
+
+	public static void main(String[] args) {
+		LargestValues res = new LargestValues();
+		TreeNode root = new TreeNode(1);
+		TreeNode a = new TreeNode(2);
+		TreeNode b = new TreeNode(3);
+		TreeNode d = new TreeNode(3);
+		TreeNode c = new TreeNode(5);
+		root.left = a;
+		a.left = b;
+		a.right = d;
+		b.left = c;
+		res.largestValues(root);
+	}
 }
