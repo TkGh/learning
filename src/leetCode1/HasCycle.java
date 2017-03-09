@@ -1,21 +1,29 @@
 package leetCode1;
 
+/**
+ * Given a linked list, determine if it has a cycle in it. solve it without
+ * using extra space.
+ */
 public class HasCycle {
 	public boolean hasCycle(ListNode head) {
 		if (head == null) {
 			return false;
 		}
-		ListNode curr = head;
-		java.util.HashMap<ListNode, Integer> map = new java.util.HashMap<ListNode, Integer>();
-		map.put(head, 1);
+		ListNode curr = head.next;
+		ListNode prev = head;
+		int interval = 0;
 
-		while (curr.next != null) {
-			if (map.containsKey(curr.next)) {
+		while (curr != null) {
+			if (curr == prev) {
 				return true;
 			}
 			curr = curr.next;
-			map.put(curr, 1);
+			interval++;
+			if (interval % 2 == 1) {
+				prev = prev.next;
+			}
 		}
+
 		return false;
 	}
 
