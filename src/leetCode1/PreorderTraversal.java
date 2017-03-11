@@ -2,30 +2,31 @@ package leetCode1;
 
 import java.util.*;
 
-public class InorderTraversal {
-	public List<Integer> inorderTraversal(TreeNode root) {
-		// morris algorithm
-
+/**
+ * Given a binary tree, return the preOrder traversal of its nodes' values.
+ */
+public class PreorderTraversal {
+	public List<Integer> preorderTraversal(TreeNode root) {
 		List<Integer> res = new ArrayList<>();
 		if (root == null) {
 			return res;
 		}
 
-		TreeNode curr = root;
 		TreeNode prev = null;
+		TreeNode curr = root;
 		while (curr != null) {
 			if (curr.left == null) {
 				res.add(curr.val);
 				curr = curr.right;
 			} else {
-				prev = findPredecessor(curr);
+				prev = rightButton(curr);
 				if (prev.right == null) {
 					prev.right = curr;
+					res.add(curr.val);
 					curr = curr.left;
 				}
 				if (prev.right == curr) {
 					prev.right = null;
-					res.add(curr.val);
 					curr = curr.right;
 				}
 			}
@@ -34,22 +35,20 @@ public class InorderTraversal {
 		return res;
 	}
 
-	private TreeNode findPredecessor(TreeNode root) {
+	private TreeNode rightButton(TreeNode root) {
 		TreeNode prev = root.left;
 		while (prev.right != null && prev.right != root) {
 			prev = prev.right;
 		}
-
 		return prev;
 	}
 
 	public static void main(String[] args) {
-		InorderTraversal res = new InorderTraversal();
 		TreeNode root = new TreeNode(1);
 		TreeNode a = new TreeNode(2);
-
 		root.left = a;
+		PreorderTraversal res = new PreorderTraversal();
+		res.preorderTraversal(root);
 
-		res.inorderTraversal(root);
 	}
 }
