@@ -1,17 +1,22 @@
 package leetCode1;
 
+import java.util.*;
+
 public class Draft {
 	public static void main(String[] args) {
-		int num = 1;
-		if (num == 1) {
-			System.out.println(1);
-			num = 2;
-		} else if (num == 2) {
-			System.out.println(2);
-		}
 
-		System.out.println(0x80000000);
+		HashSet<List<Integer>> test2 = new HashSet<>();
 
+		List<Integer> res = new ArrayList<>();
+		List<Integer> res2 = new ArrayList<>();
+		res.add(1);
+		res.add(2);
+		res2.add(1);
+		res2.add(23);
+		test2.add(res2);
+		test2.add(res);
+		res.remove(res.size() - 1);
+		System.out.println(test2.size());
 	}
 
 }
