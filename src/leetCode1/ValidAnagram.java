@@ -4,6 +4,9 @@ import java.util.*;
 
 public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
+
+
+        //Step 1: map characters from s:
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             if (map.containsKey(s.codePointAt(i))) {
@@ -14,6 +17,8 @@ public class ValidAnagram {
             }
         }
 
+
+        //Step 2: check whether t has the same characters:
         for (int i = 0; i < t.length(); i++) {
             if (!map.containsKey(t.codePointAt(i))) {
                 return false;
@@ -25,7 +30,9 @@ public class ValidAnagram {
             }
         }
 
+
         Iterator iter = map.entrySet().iterator();
+
         while (iter.hasNext()) {
             Map.Entry entry = (Map.Entry) iter.next();
             if ((int) entry.getValue() != 0) {
