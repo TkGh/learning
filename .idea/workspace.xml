@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01088994-7ef8-4be1-b958-68f673ba3961" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetCode1/ValidAnagram.java" afterPath="$PROJECT_DIR$/src/leetCode1/ValidAnagram.java" />
-    </list>
+    <list default="true" id="01088994-7ef8-4be1-b958-68f673ba3961" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WiggleSortII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WiggleSortII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetCode1/WiggleSortII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1672">
@@ -47,12 +45,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthLargestElementInAnArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetCode1/KthLargestElementInAnArray.java">
+      <file leaf-file-name="Interval.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCode1/Interval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="304">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeIntervals.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetCode1/MergeIntervals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-92">
+              <caret line="26" column="122" lean-forward="false" selection-start-line="26" selection-start-column="122" selection-end-line="26" selection-end-column="122" />
+              <folding>
+                <element signature="e#2534#2535#0" expanded="true" />
+                <element signature="e#2587#2588#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/leetCode1/ValidAnagram.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/KthLargestElementInAnArray.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/WiggleSortII.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/MergeIntervals.java" />
       </list>
     </option>
   </component>
@@ -163,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthLargestElementInAnArray">
+  <component name="RunManager" selected="Application.MergeIntervals">
     <configuration name="Draft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -240,14 +252,14 @@
       <module name="workOnMac" />
       <envs />
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetCode1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode1.ValidAnagram" />
+      <option name="MAIN_CLASS_NAME" value="leetCode1.MergeIntervals" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -342,18 +354,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Draft" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ValidAnagram" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JudgeRouteCircle" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LongestWordInDictionarythroughDeleting" />
-      <item index="4" class="java.lang.String" itemvalue="Application.KthLargestElementInAnArray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JudgeRouteCircle" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LongestWordInDictionarythroughDeleting" />
+      <item index="3" class="java.lang.String" itemvalue="Application.KthLargestElementInAnArray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MergeIntervals" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.KthLargestElementInAnArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LongestWordInDictionarythroughDeleting" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Draft" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JudgeRouteCircle" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ValidAnagram" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MergeIntervals" />
+        <item index="1" class="java.lang.String" itemvalue="Application.KthLargestElementInAnArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LongestWordInDictionarythroughDeleting" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Draft" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JudgeRouteCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -369,12 +381,12 @@
       <updated>1503020827514</updated>
       <workItem from="1503020835802" duration="342000" />
       <workItem from="1503309963858" duration="3516000" />
-      <workItem from="1503408271930" duration="10205000" />
+      <workItem from="1503408271930" duration="12836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14063000" />
+    <option name="totallyTimeSpent" value="16694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-280" width="1920" height="1080" extended-state="0" />
@@ -389,7 +401,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -400,7 +412,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36213592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36213592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -417,7 +429,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -526,14 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/KthLargestElementInAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode1/WiggleSortII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
@@ -541,6 +545,33 @@
           <folding>
             <element signature="e#788#789#0" expanded="true" />
             <element signature="e#844#845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/KthLargestElementInAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/MergeIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="26" column="122" lean-forward="false" selection-start-line="26" selection-start-column="122" selection-end-line="26" selection-end-column="122" />
+          <folding>
+            <element signature="e#2534#2535#0" expanded="true" />
+            <element signature="e#2587#2588#0" expanded="true" />
           </folding>
         </state>
       </provider>
