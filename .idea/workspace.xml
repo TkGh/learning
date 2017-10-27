@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01088994-7ef8-4be1-b958-68f673ba3961" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetCode1/AverageOfLevels.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetCode1/FindSecondMinimumValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetCode1/LongestUnivaluePath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetCode1/TrimBST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -24,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GuessNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetCode1/GuessNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -33,6 +37,56 @@
                 <element signature="e#733#734#0" expanded="true" />
                 <element signature="e#795#796#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCode1/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrimBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCode1/TrimBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindSecondMinimumValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCode1/FindSecondMinimumValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestUnivaluePath.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCode1/LongestUnivaluePath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AverageOfLevels.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetCode1/AverageOfLevels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,6 +128,10 @@
         <option value="$PROJECT_DIR$/src/leetCode1/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/GuessNumber.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/TrimBST.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/FindSecondMinimumValue.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/LongestUnivaluePath.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/AverageOfLevels.java" />
       </list>
     </option>
   </component>
@@ -368,12 +426,12 @@
       <workItem from="1503309963858" duration="3516000" />
       <workItem from="1503408271930" duration="28819000" />
       <workItem from="1503812521665" duration="3977000" />
-      <workItem from="1508921214189" duration="2040000" />
+      <workItem from="1508921214189" duration="9459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38694000" />
+    <option name="totallyTimeSpent" value="46113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-280" width="1920" height="1080" extended-state="0" />
@@ -685,8 +743,8 @@
         <state relative-caret-position="273">
           <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="false" />
+            <element signature="e#174#175#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,6 +765,46 @@
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#795#796#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/TrimBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/FindSecondMinimumValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/LongestUnivaluePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/AverageOfLevels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
