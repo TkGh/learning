@@ -10,7 +10,7 @@ public class CountAndSay {
 		int index = 1;
 
 		while (index < n) {
-			StringBuilder sb = new StringBuilder();
+			StringBuffer sb = new StringBuffer();
 			int cnt = 1;
 			for (int i = 1; i < res.length(); i++) {
 				if (res.charAt(i) == res.charAt(i - 1)) {
