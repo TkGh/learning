@@ -11,7 +11,7 @@ package leetCode1;
  * each house, determine the maximum amount of money you can rob tonight without
  * alerting the police.
  */
-public class Rob {
+public class HouseRobber {
 	public int rob(int[] nums) {
 		if (nums == null || nums.length == 0) {
 			return 0;
@@ -34,7 +34,7 @@ public class Rob {
 
 	public static void main(String[] args) {
 		int[] test = { 2, 1, 1, 2 };
-		Rob res = new Rob();
+		HouseRobber res = new HouseRobber();
 		System.out.println(res.rob(test));
 	}
 }
