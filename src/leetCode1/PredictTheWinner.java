@@ -1,5 +1,8 @@
 package leetCode1;
 
+/**
+ * Space complex(n) ver
+ */
 public class PredictTheWinner {
     public boolean PredictTheWinner(int[] nums) {
         int size = nums.length;
@@ -19,7 +22,7 @@ public class PredictTheWinner {
 }
 
 /**
- * Space complex n^2 ver
+ * Space complex(n^2) ver
  */
 //class Solution {
 //    public boolean PredictTheWinner(int[] nums) {

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01088994-7ef8-4be1-b958-68f673ba3961" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/leetCode1/MinSubArrayLen.java" afterPath="$PROJECT_DIR$/src/leetCode1/MinimumSizeSubarraySum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetCode1/PredictTheWinner.java" afterPath="$PROJECT_DIR$/src/leetCode1/PredictTheWinner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Draft.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Draft.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetCode1/Draft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PredictTheWinner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetCode1/PredictTheWinner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="152">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -59,16 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetCode1/RelativeRanks.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/FindPivotIndex.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/SubarraySumEqualsK.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/ContinuousSubarraySum.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/PalindromeNumber.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/LongestHarmoniousSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/LongestContinuousIncreasingSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/NumberOfLongestIncreasingSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/IsomorphicStrings.java" />
-        <option value="$PROJECT_DIR$/src/leetCode1/WordPattern.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/HouseRobber.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/HouseRobberIII.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/BinarySearchTreeIterator.java" />
@@ -110,6 +92,16 @@
         <option value="$PROJECT_DIR$/src/leetCode1/Maximum_Length_of_PairChain.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/IntegerBreak.java" />
         <option value="$PROJECT_DIR$/src/leetCode1/PredictTheWinner.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/CanIWin.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/GuessNumberHigherOrLowerII.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/CountNumbersWithUniqueDigits.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/TwoKeysKeyboard.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/SelfDividingNumbers.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/PerfectNumber.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/FactorialTrailingZeroes.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/MaximumLengthOfRepeatedSubarray.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/MinimumSizeSubarraySum.java" />
+        <option value="$PROJECT_DIR$/src/leetCode1/IsSubsequence.java" />
       </list>
     </option>
   </component>
@@ -214,15 +206,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntegerBreak">
-    <configuration name="DungeonGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.IsSubsequence">
+    <configuration name="CountNumbersWithUniqueDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetCode1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode1.DungeonGame" />
+      <option name="MAIN_CLASS_NAME" value="leetCode1.CountNumbersWithUniqueDigits" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -234,14 +226,14 @@
       <module name="workOnMac" />
       <envs />
     </configuration>
-    <configuration name="IncreasingSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetCode1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode1.IncreasingSubsequences" />
+      <option name="MAIN_CLASS_NAME" value="leetCode1.IsSubsequence" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -253,14 +245,14 @@
       <module name="workOnMac" />
       <envs />
     </configuration>
-    <configuration name="IntegerBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumLengthOfRepeatedSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetCode1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode1.IntegerBreak" />
+      <option name="MAIN_CLASS_NAME" value="leetCode1.MaximumLengthOfRepeatedSubarray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -272,14 +264,14 @@
       <module name="workOnMac" />
       <envs />
     </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetCode1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode1.LongestIncreasingSubsequence" />
+      <option name="MAIN_CLASS_NAME" value="leetCode1.MinimumSizeSubarraySum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -291,14 +283,14 @@
       <module name="workOnMac" />
       <envs />
     </configuration>
-    <configuration name="Maximum_Length_of_PairChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetCode1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetCode1.Maximum_Length_of_PairChain" />
+      <option name="MAIN_CLASS_NAME" value="leetCode1.PerfectNumber" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -392,19 +384,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DungeonGame" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LongestIncreasingSubsequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.IncreasingSubsequences" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Maximum_Length_of_PairChain" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IntegerBreak" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CountNumbersWithUniqueDigits" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PerfectNumber" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MaximumLengthOfRepeatedSubarray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MinimumSizeSubarraySum" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IsSubsequence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IntegerBreak" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Maximum_Length_of_PairChain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IncreasingSubsequences" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LongestIncreasingSubsequence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DungeonGame" />
+        <item index="0" class="java.lang.String" itemvalue="Application.IsSubsequence" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MinimumSizeSubarraySum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MaximumLengthOfRepeatedSubarray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PerfectNumber" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CountNumbersWithUniqueDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +422,7 @@
       <workItem from="1510078187899" duration="49927000" />
       <workItem from="1511055256104" duration="74006000" />
       <workItem from="1511757460758" duration="10492000" />
-      <workItem from="1512087277720" duration="13553000" />
+      <workItem from="1512087277720" duration="24482000" />
     </task>
     <task id="LOCAL-00001" summary="mac">
       <created>1509963086355</created>
@@ -443,7 +435,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246768000" />
+    <option name="totallyTimeSpent" value="257697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-280" width="1920" height="1080" extended-state="0" />
@@ -648,89 +640,18 @@
           <properties />
           <option name="timeStamp" value="150" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode1/IsSubsequence.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="157" />
+      <option name="time" value="159" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/RelativeRanks.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/FindPivotIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/SubarraySumEqualsK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/ContinuousSubarraySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/LongestHarmoniousSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/PalindromeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/NumberOfLongestIncreasingSubsequence.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/IsomorphicStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/WordPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/HouseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/HouseRobberIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="e#111#112#0" expanded="false" />
-            <element signature="e#180#181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode1/BinarySearchTreeIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1043,14 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode1/Draft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode1/Maximum_Length_of_PairChain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -1061,8 +974,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode1/PredictTheWinner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/CanIWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/GuessNumberHigherOrLowerII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/CountNumbersWithUniqueDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/TwoKeysKeyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/SelfDividingNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/FactorialTrailingZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/PerfectNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/MaximumLengthOfRepeatedSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/MinimumSizeSubarraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/IsSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode1/Draft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
