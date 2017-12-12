@@ -1,29 +1,18 @@
 package leetCode1;
 
-public class fibonaccI
-{
-	public int fibonacci(int n)
-	{
-		int tempa = 0, tempb = 1;
-		for (int i = 0; i < n; i++)
-		{
-			if (i % 2 == 0)
-			{
-				tempa += tempb;
-			} else
-			{
-				tempb += tempa;
-			}
-		}
+public class fibonaccI {
+    public int fibonacci(int n) {
+        if (n == 0) return 0;
 
-		int y = 0;
-		if (n % 2 == 0)
-		{
-			y = tempb;
-		} else
-		{
-			y = tempa;
-		}
-		return y;
-	}
+        int a = 0, b = 1;
+        int res = 0;
+
+        for (int i = 2; i <= n; i++) {
+            res = a + b;
+            a = b;
+            b = res;
+        }
+
+        return res;
+    }
 }
