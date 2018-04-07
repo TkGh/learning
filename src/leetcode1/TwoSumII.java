@@ -5,7 +5,7 @@ import java.util.*;
 public class TwoSumII {
 	public int[] twoSum(int[] numbers, int target) {
 		int size = numbers.length;
-		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+		HashMap<Integer, Integer> map = new HashMap<>();
 
 		int[] res = new int[2];
 		for (int i = 0; i < size; i++) {
