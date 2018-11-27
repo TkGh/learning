@@ -10,10 +10,6 @@ public class IsUgly {
 		}
 	}
 
-	public IsUgly() {
-
-	}
-
 	public boolean isUgly(int num) {
 		if (num <= 0) {
 			return false;
@@ -22,7 +18,7 @@ public class IsUgly {
 		int[] temp = {2, 3, 5};
 
 		while (num > 1) {
-			int i = 0;
+			int i;
 			for (i = 0; i < 3; i++) {
 				if (num % temp[i] == 0) {
 					num /= temp[i];
